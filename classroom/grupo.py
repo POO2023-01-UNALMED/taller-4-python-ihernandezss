@@ -12,7 +12,6 @@ class Grupo:
         self._asignaturas=[]
         for key in kwargs:
             self._asignaturas.append(key)
-        print (self._asignaturas)
 
     def agregarAlumno(self, alumno, lista=None):
         if lista is None:
